@@ -39,8 +39,8 @@ def word_game():
         else:
             print(f"Ответ неверный! Было загадано слово - {word}")
 
-        play_again = input("{хотите сыграть еще раз? y/n : ").strip().lower()
-        if play_again != "y":
+        play_again = input("{хотите сыграть еще раз? д/н : ").strip().lower()
+        if play_again != "д":
             print("Спасибо за игру!")
             break
 
